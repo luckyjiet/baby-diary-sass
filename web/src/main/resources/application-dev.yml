@@ -1,0 +1,9 @@
+server:
+  port: 9091
+sign:
+  debug: true
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:mapper/*.xml

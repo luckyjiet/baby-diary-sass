@@ -1,0 +1,10 @@
+server:
+  port: 8080
+sign:
+  debug: false
+  allow-url:
+    - www.baidu.com
+    - www.163.com
+  form-data-url:
+    - /upload
+  app-key: app

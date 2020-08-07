@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 123456
+    username: kaifa
+    url: jdbc:mysql://121.40.204.252:3306/tbl?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+  profiles:
+    include: common,dev
+
+
